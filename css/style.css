@@ -4,6 +4,11 @@ body{
 	
    
 }
+@media(max-width:768px){
+   li,a, #respon{
+        font-size: 14px;
+    }
+}
 h1,h2,h3,h4,h5,h6{
     font-family: 'Raleway', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -179,7 +184,9 @@ border-top: 1px solid white;
 }
 .location{
     margin: auto;
-    text-align: center
+    text-align: center;
+    border-bottom: 3px solid;
+    font-weight: bold;
 }
 .main_footer{
     padding: 20px;
@@ -683,4 +690,7 @@ html{
     color: #000;
     font-weight: bold;
     text-align: center;
+}
+.mycc{
+    width: 100%;
 }
